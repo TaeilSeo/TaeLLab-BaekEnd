@@ -34,3 +34,6 @@ build/
 
 ### application-security.properties ###
 application-security.properties
+
+### log files ###
+*.log

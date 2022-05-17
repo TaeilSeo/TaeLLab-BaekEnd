@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sti.taelab.mapper.NewsMapper">
+
+	<select id="selectNews" parameterType="map" resultType="news">
+		select n.newsId, n.title, n.subtitle, n.content, c.name category, n.region, n.regdate
+		from news n, category c
+		where n.categoryId = c.categoryId
+		order by n.regdate desc
+		limit #{cnt}
+	</select>
+
+</mapper>
