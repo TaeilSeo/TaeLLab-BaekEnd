@@ -30,7 +30,7 @@ TaeLab BackEnd - Spring Boot
 
 # Dev Log
 ## 2022-06-09
-- Lombok 적용
+- ***Lombok*** 적용
   + Lombok이란?
     + VO, DTO 등의 객체 생성시, 생성자, geter, setter 등을 annotation을 통해 간편하게 생성해주는 java library
   + 적용 이유
