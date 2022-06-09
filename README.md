@@ -25,3 +25,13 @@ TaeLab BackEnd - Spring Boot
   * 등록
   * 수정
   * 삭제
+
+- - -
+
+# Dev Log
+## 2022-06-09
+- Lombok 적용
+  + Lombok이란?
+    + VO, DTO 등의 객체 생성시, 생성자, geter, setter 등을 annotation을 통해 간편하게 생성해주는 java library
+  + 적용 이유
+    + 객체 생성시마다 추가해줘야 했던 추가 코드들을 간편하게 생성/관리함으로서 생산성을 높일 수 있다!
